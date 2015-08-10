@@ -25,10 +25,23 @@ public class LibrarySystem {
         Book book5 = new Book("I Am Malala", "Malala Yousafzai", false);
         libCollection.add(book5);
 
-        Video video1 = new Video("Mission: Impossible- Ghost Protocol", "Tom Cruise", "Brad Bird", VideoCategories.MOVIE);
+        Video video1 = new Video("Mission: Impossible- Ghost Protocol", "Brad Bird", "Tom Cruise", VideoCategories.MOVIE);
         libCollection.add(video1);
 
-        Video video2 = new Video("Star Trek- Into Darkness", "Chris Pine", "J.J. Abrams", VideoCategories.MOVIE);
+        Video video2 = new Video("Star Trek- Into Darkness", "J.J. Abrams", "Chris Pine", VideoCategories.MOVIE);
+        libCollection.add(video2);
+
+        Video video3 = new Video("Fringe", "J.J. Abrams", "Anna Torv, Joshua Jackson", VideoCategories.SHOW);
+        libCollection.add(video3);
+
+        Video video4 = new Video("Psych", "Mel Damski", "James Roday, Dule Hill, Maggie Lawson", VideoCategories.SHOW);
+        libCollection.add(video4);
+
+        Video video5 = new Video("Super Size Me", "Morgan Spurlock", "Morgan Spurlock", VideoCategories.DOCUMENTARY);
+        libCollection.add(video5);
+
+        Video video6 = new Video("Blackfish", "Gabriela Cowperthwaite", "Tilikum the whale, John Hargrove, Samantha Berg", VideoCategories.DOCUMENTARY);
+        libCollection.add(video6);
 
     }
 }
